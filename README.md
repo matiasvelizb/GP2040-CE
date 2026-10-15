@@ -1,3 +1,15 @@
+## DRMFTG DRM JS 24mm fork
+
+Custom GP2040-CE v0.7.12 build for the DRMFTG DRM JS 24mm stick.
+
+- Board config: `configs/DRMFTG24mm/` (pin map from the vendor 0.7.8 firmware)
+- OLED (128x64, I²C0): GND→GND, VCC→3.3V, SDA→GP24, SCL→GP25
+- Original firmware + settings backup: `configs/DRMFTG24mm/backup/`
+- Build: copy `.env.example` to `.env`, then run `./build-firmware.sh`
+- Flash: BOOTSEL → `flash_nuke.uf2` → `build/GP2040-CE_0.7.12_DRMFTG24mm.uf2`
+
+---
+
 <p align="center">
   <a href="https://gp2040-ce.info">
     <img alt="GP2040-CE" src="https://raw.githubusercontent.com/OpenStickCommunity/Site/main/docs/assets/images/gp2040-ce-logo.png" />
