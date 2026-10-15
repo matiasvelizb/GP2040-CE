@@ -13,6 +13,7 @@ modules/Custom.cmake
 .idea
 cmake-*
 env.ini
+.env
 
 # Container
 .devcontainer
